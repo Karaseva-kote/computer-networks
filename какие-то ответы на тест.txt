@@ -1,0 +1,56 @@
+284579
+Карасева Екатерина Павловна M33351
+FTP - L7, ARP - L2, UDP - L4, Ethernet - L2, ICMP - L3
+a) 2048, 2046
+b) 2, 2
+00:40:BE Boeing Defense & Space
+6.1.152.17 - 5.2.1.1 
+6.1.152.117 - 5.2.1.1
+6.1.152.217 - 5.2.1.2
+6.1.152.255 - 5.2.1.2
+6.1.153.217 - 5.2.1.3
+6.3.163.217 - никуда
+6.3.239.239 - никуда
+255.255.255.255 - всем в локальной сети, local broadcast
+2a00:9910:4a00::123 - 2a02:6b8::2:aaff
+2a00:9910:4b00::123 - 2a02:6b8::2:aaff
+2a00:9910:4c00::123 - никуда
+Я вижу два одинаковых IP-адреса у разных устройств. Можно попробовать избежать проблемы с помощью DHCP сервера в локальной сети, который бы выдал устройствам разные адреса.
+HTTP - TCP, HTTP/2 - TCP, HTTP/3 - UDP, DNS - UDP/TCP
+
+Issued by: GlobalSign ECC OV SSL CA 2018
+Expires: Thursday, 1 September 2022, 23:59:59 Moscow Standard Time
+
+https://bgp.he.net/
+Welcome to the Hurricane Electric BGP Toolkit.
+
+You are visiting from 109.184.24.61 (109-184-24-61.dynamic.mts-nn.ru)Russian Federation
+Announced as 109.184.0.0/17 (Network for PPPoE clients terminations in)Russian Federation
+Announced as 109.184.0.0/16 (PJSC Rostelecom)Russian Federation
+Your ISP is AS12389 (PJSC Rostelecom)
+
+Мой провайдер PJSC Rostelecom
+
+tracert stanford.edu
+Трассировка маршрута к stanford.edu [171.67.215.200]
+с максимальным числом прыжков 30:
+
+  1     2 ms     1 ms     1 ms  Eltex.Home [192.168.1.1]
+  2     6 ms     6 ms    92 ms  188.254.2.28
+  3     *        7 ms     6 ms  188.254.2.29
+  4     *        *        *     Превышен интервал ожидания для запроса.
+  5     *        *        *     Превышен интервал ожидания для запроса.
+  6    46 ms     *       42 ms  100ge0-35.core2.cph1.he.net [184.104.194.222]
+  7   358 ms   302 ms   127 ms  100ge0-31.core1.ewr5.he.net [184.104.196.134]
+  8     *        *        *     Превышен интервал ожидания для запроса.
+  9   373 ms   299 ms   302 ms  100ge13-1.core4.fmt2.he.net [184.105.81.61]
+ 10     *        *        *     Превышен интервал ожидания для запроса.
+ 11   192 ms   303 ms   302 ms  100ge1-2.core1.pao1.he.net [184.104.195.173]
+ 12   390 ms   302 ms   237 ms  stanford-university.100gigabitethernet5-1.core1.pao1.he.net [184.105.177.238]
+ 13   264 ms   319 ms   195 ms  woa-west-rtr-vl2.SUNet [171.64.255.132]
+ 14     *        *        *     Превышен интервал ожидания для запроса.
+ 15   195 ms   194 ms   324 ms  web.stanford.edu [171.67.215.200]
+
+Трассировка завершена.
+Пересечение Атлантического океана:
+3й адрес - Москва, Россия, а 6й адрес - вдхр. Чини, Канзас, США
